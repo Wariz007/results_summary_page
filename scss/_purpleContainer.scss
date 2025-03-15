@@ -1,0 +1,50 @@
+.colored__container{
+    background: linear-gradient(to bottom, $LightSlateBlueBackground 5%, $LightRoyalBluebackground 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+//Your results
+.colored__container__h3{
+    color: rgba(255, 255, 255, 0.74);
+}
+
+//Container containing 76 of 100
+.colored__container__circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-block: 1rem;
+    padding: 2rem 3rem;
+    border-radius: 5rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 50%, $LightRoyalBluebackground);
+}
+
+.score {
+    color: $White;
+    font-size: 3rem;
+}
+
+.score__total{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.459);
+}
+
+//Great
+.colored__container__h2{
+    color: $White;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+//the paragraph text
+.colored__container__text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.74);
+}
