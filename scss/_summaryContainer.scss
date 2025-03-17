@@ -1,0 +1,41 @@
+.summary__container{
+    border: 2px solid magenta;
+    padding: 1rem 1.5rem;
+
+    .item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.summary__container__h2{
+    font-size: 1.3rem;
+    color: $DarkGrayBlue;
+    margin-bottom: 1rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.category-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and text */
+}
+
+.summary__container img {
+    width: 30px;
+    height: auto;
+}
+
+.summary__container div{
+    border: 2px solid magenta;
+}
+
