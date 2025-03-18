@@ -1,6 +1,27 @@
-.summary__container{
-    border: 2px solid magenta;
+.container__two{
+    display: flex;
+    flex-direction: column;
     padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    /*border: 2px solid magenta;*/
+
+    .btn{
+        color: white;
+        font-weight: 600;
+        padding: 1rem;
+        border: none;
+        border-radius: 3rem;
+        background-color: hsl(224, 30%, 27%);
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color: hsla(224, 30%, 27%, 0.918);
+    }
+}
+
+.summary__container{
+    margin-bottom: 0.5rem;
 
     .item{
         display: flex;
@@ -24,6 +45,14 @@
     border-radius: 5px;
 }
 
+.score-bold{
+    font-weight: bold;
+}
+
+.reduced-opacity{
+    opacity: 0.5;
+}
+
 .category-wrapper {
     display: flex;
     align-items: center;
@@ -35,7 +64,6 @@
     height: auto;
 }
 
-.summary__container div{
+/*.summary__container div{
     border: 2px solid magenta;
-}
-
+}*/
