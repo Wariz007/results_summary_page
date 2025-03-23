@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('.summary__container');
 
-    fetch('data.json')
+    fetch("https://wariz007.github.io/results_summary_page/data.json")
         .then(response => response.json())
         .then(data => {
             data.forEach((item, index) => {
